@@ -15,6 +15,7 @@ public class App {
         System.out.println("Creating new finder-instance...");
 
         WsDiscoveryFinder finder = new WsDiscoveryFinder();
+        
         System.out.println("Searching for all services (2 sec).");
         IWsDiscoveryServiceCollection result = finder.findAll(2000);
     
@@ -23,7 +24,7 @@ public class App {
 
         for (WsDiscoveryService service : result) {
             // Print service info
-            System.out.println(service.toString());
+            System.out.println(service.getXAddrs().get(0));
 
             System.out.println("---");
         }
