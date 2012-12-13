@@ -18,6 +18,7 @@ public class App {
         
         System.out.println("Searching for all services (2 sec).");
         IWsDiscoveryServiceCollection result = finder.findAll(2000);
+        
     
         // Display the results.
         System.out.println("** Discovered services: **");
