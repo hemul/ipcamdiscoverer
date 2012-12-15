@@ -9,7 +9,7 @@ import com.ms.wsdiscovery.servicedirectory.interfaces.IWsDiscoveryServiceCollect
  * Hello world!
  * 
  */
-public class App {
+public class Discoverer {
 	public static void main(String[] args) throws InterruptedException, WsDiscoveryException{
 		 // Create new finder instance. 
         System.out.println("Creating new finder-instance...");
