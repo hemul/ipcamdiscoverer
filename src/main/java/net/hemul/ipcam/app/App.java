@@ -1,4 +1,4 @@
-package net.hemul.ipcam;
+package net.hemul.ipcam.app;
 
 import com.ms.wsdiscovery.WsDiscoveryFinder;
 import com.ms.wsdiscovery.exception.WsDiscoveryException;

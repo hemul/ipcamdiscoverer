@@ -1,4 +1,4 @@
-package net.hemul.ipcam;
+package net.hemul.ipcam.test;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
