@@ -5,6 +5,7 @@ import com.ms.wsdiscovery.exception.WsDiscoveryException;
 import net.hemul.ipcam.classes.Finder;
 
 public class Discoverer {
+	@SuppressWarnings("unused")
 	public static void main(String[] args){
 		try {
 			Finder finder = new Finder();

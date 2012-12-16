@@ -1,6 +1,11 @@
 package net.hemul.ipcam.classes;
 
+import java.util.logging.Level;
+
+import com.ms.wsdiscovery.WsDiscoveryBuilder;
+import com.ms.wsdiscovery.WsDiscoveryConstants;
 import com.ms.wsdiscovery.WsDiscoveryFinder;
+import com.ms.wsdiscovery.WsDiscoveryServer;
 import com.ms.wsdiscovery.exception.WsDiscoveryException;
 import com.ms.wsdiscovery.servicedirectory.WsDiscoveryService;
 import com.ms.wsdiscovery.servicedirectory.interfaces.IWsDiscoveryServiceCollection;
@@ -12,7 +17,9 @@ public class Finder {
 		 // Create new finder instance. 
         System.out.println("Creating new finder-instance...");
 
+        WsDiscoveryConstants.loggerLevel = Level.OFF;
         WsDiscoveryFinder finder = new WsDiscoveryFinder();
+        
         
         System.out.println("Searching for all services (2 sec).");
         IWsDiscoveryServiceCollection result = finder.findAll(2000);
