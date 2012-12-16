@@ -12,6 +12,8 @@ public class Discoverer {
 	private Finder finder;
 	private List<String> foundServices;
 
+	
+	
 	public static void main(String[] args) {
 
 		Discoverer discoverer = new Discoverer();
