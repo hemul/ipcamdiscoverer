@@ -14,12 +14,7 @@ public class IPCamClassesTest {
 	@Test
 	public void finderCreatetest() {
 		
-		try {
-			finder = new Finder();
-		} catch (InterruptedException | WsDiscoveryException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		finder = new Finder();
 		assertNotNull(finder);
 	}
 
