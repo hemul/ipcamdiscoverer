@@ -6,7 +6,7 @@ import net.hemul.ipcam.classes.Finder;
 
 import org.junit.Test;
 
-public class IPCamClassesTest {
+public class FinderTest {
 	private Finder finder;
 
 	@Test

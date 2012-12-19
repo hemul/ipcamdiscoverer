@@ -2,11 +2,8 @@ package net.hemul.ipcam.app;
 
 import java.util.List;
 
-import com.ms.wsdiscovery.exception.WsDiscoveryException;
-
 import net.hemul.ipcam.classes.Finder;
 
-@SuppressWarnings("unused")
 public class Discoverer {
 
 	private Finder finder;

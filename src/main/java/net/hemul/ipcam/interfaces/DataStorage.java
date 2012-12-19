@@ -4,6 +4,6 @@ import java.util.List;
 
 public interface DataStorage {
 	
-	public void storeData (List<String> dataToStore);
+	public boolean storeData (List<String> dataToStore);
 	
 }
